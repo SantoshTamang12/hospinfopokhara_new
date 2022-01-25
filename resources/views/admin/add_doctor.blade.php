@@ -17,7 +17,7 @@
 <div class="container" align="center" style="padding-top:50px">
     <form>
         <div>
-            <label>Doctor Name</label>
+            <label>Hospital Name</label>
             <input type="text" style="color:black" name="name" placeholder="Write the name">
         </div>
 </div>

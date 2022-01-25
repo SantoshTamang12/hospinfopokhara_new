@@ -8,7 +8,7 @@
 
   <meta name="copyright" content="MACode ID, https://macodeid.com/">
 
-  <title>HOSPINFOPOKHARA</title>
+  <title>HOSPINFO-POKHARA</title>
 
   <link rel="stylesheet" href="../assets/css/maicons.css">
 
@@ -55,10 +55,10 @@
             <li class="nav-item">
               <a class="btn btn-primary ml-lg-3" href="{{Route('login')}}">Login</a>
             </li>
-
+{{-- 
             <li class="nav-item">
                 <a class="btn btn-primary ml-lg-3" href="{{Route('register')}}">Register</a>
-              </li>
+              </li> --}}
               @endauth
               @endif
 
@@ -78,64 +78,8 @@
     </div>
   </div>
 
-
- <!--  <div class="bg-light">
-    <div class="page-section py-3 mt-md-n5 custom-index">
-      <div class="container">
-        <div class="row justify-content-center">
-          <div class="col-md-4 py-3 py-md-0">
-            <div class="card-service wow fadeInUp">
-              <div class="circle-shape bg-secondary text-white">
-                <span class="mai-chatbubbles-outline"></span>
-              </div>
-              <p><span>Chat</span> with a doctors</p>
-            </div>
-          </div>
-          <div class="col-md-4 py-3 py-md-0">
-            <div class="card-service wow fadeInUp">
-              <div class="circle-shape bg-primary text-white">
-                <span class="mai-shield-checkmark"></span>
-              </div>
-              <p><span>One</span>-Health Protection</p>
-            </div>
-          </div> -->
-          <!-- <div class="col-md-4 py-3 py-md-0">
-            <div class="card-service wow fadeInUp">
-              <div class="circle-shape bg-accent text-white">
-                <span class="mai-basket"></span>
-              </div>
-              <p><span>One</span>-Health Pharmacy</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>  --><!-- .page-section -->
-
-    <div class="page-section pb-0">
-      <div class="container">
-        <div class="row align-items-center">
-          <div class="col-lg-6 py-3 wow fadeInUp">
-            <h1>WELCOME TO HOSPINFOPOKHARA </h1>
-            <p class="text-grey mb-4">HOSPINFOPOKHARA</p>
-            <a href="about.html" class="btn btn-primary">Learn More</a>
-          </div>
-          <div class="col-lg-6 wow fadeInRight" data-wow-delay="400ms">
-            <div class="img-place custom-img-1">
-              <img src="../assets/img/bg-doctor.png" alt="">
-            </div>
-          </div>
-        </div>
-      </div>
-    </div> <!-- .bg-light -->
-  </div> <!-- .bg-light -->
-
   @include('user.doctor')
-  @include('user.appointment')
-
-
-
-
-
+  {{-- @include('user.appointment') --}}
 
 <script src="../assets/js/jquery-3.5.1.min.js"></script>
 
